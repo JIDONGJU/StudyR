@@ -2,7 +2,7 @@
 z <- matrix(1:20, nrow=4,ncol=5)
 z
 
-z1 <- matrix(1:20, nrow=4, ncol=5, byrow=T)
+z1 <- matrix(1:20, nrow=4, ncol=5, byrow=T) # 1부터20까지 4행5열로 행우선선
 z1
 
 z[1,3]
@@ -33,7 +33,7 @@ rbind(z,x)
 x
 z
 z[2,] # 2행 조회
-z[,3] # 3열 조회회
+z[,3] # 3열 조회
 
 
 
