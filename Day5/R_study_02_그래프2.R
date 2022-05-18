@@ -56,7 +56,7 @@ str(science)
 ds <- table(science$like)
 pie(ds, radius = 1,
     main = '선호 점수별 비율',
-    col = rainbow(length(ds)))  # pie의 색 지정
+    col = rainbow(length(ds)))   # pie의 색 지정
     #radius = 1)                 # pie의 크기 지정
 
 install.packages('plotrix')
