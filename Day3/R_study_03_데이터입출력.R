@@ -50,7 +50,7 @@ cat('체질량 지수', bmi, '입니다.\n(25이상 과체중, 30이상 비만)'
 install.packages('formattable')
 library(formattable)
 
-num.data <- c(1250000, 22500, 123.456, 123.444, 1789.34)
+num.data <- c(1250000, 22500, 123456, 123444, 178934)
 num.data
 comma(num.data)
 

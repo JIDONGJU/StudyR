@@ -70,7 +70,8 @@ tips.new$perHead <- tips.new$total_bill / tips.new$size
 
 color.5 <- rep('#a8dadc',6)
 color.5[2] <- '#1D3557'
-
+color.5
+color.5[2]
 # 1인당 주문금액을 전체, 런치, 디너로 추출하여 그래프작성, 비교
 par(mfrow = c(1,3),      # 1행 3열 레이아웃 분할
     mar = c(5,4,4,2)+.1) # 레이아웃 사이즈

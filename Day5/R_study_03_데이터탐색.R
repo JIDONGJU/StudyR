@@ -3,7 +3,7 @@
 library(carData)
 str(Titanic)
 tData <- Titanic
-tData2 <- TitanicSurvival
+tData2 <- TitanicSurvival$
 str(tData2)
 
 room.class <- TitanicSurvival$passengerClass
@@ -11,7 +11,9 @@ str(room.class)
 
 room.class
 tbl <- table(room.class)
+
 sum(tbl)
+str(tbl)
 
 barplot(tbl, main = '선실별 탑승객',
         xlab = '선실등급',
